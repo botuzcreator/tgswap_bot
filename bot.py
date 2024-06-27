@@ -110,7 +110,7 @@ async def handle_unexpected_message(update: Update, context: CallbackContext) ->
 
 def main():
     """ Asosiy funksiya botni ishga tushirish uchun """
-    application = Application.builder().token("6722967814:AAGKO-0xQ2roeYB_maPf1ZumPUE1UNABo4c").build()
+    application = Application.builder().token("7422914822:AAGs3nE_7WktSXftwz-shLwIZJJKSsjt2JY").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
